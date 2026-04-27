@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioSaludableWeb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f9f4
+        }
+
+        header {
+            background: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 25px
+        }
+
+        nav {
+            background: #388e3c;
+            padding: 12px;
+            text-align: center
+        }
+
+            nav a {
+                color: #fff;
+                margin: 0 15px;
+                text-decoration: none;
+                font-weight: bold
+            }
+
+        .hero {
+            padding: 30px;
+            text-align: center
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 20px;
+            padding: 20px
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center
+        }
+
+            .card img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover
+            }
+
+            .card h3 {
+                margin: 10px 0
+            }
+
+            .card a {
+                display: inline-block;
+                margin: 10px;
+                padding: 10px 15px;
+                background: #2e7d32;
+                color: #fff;
+                border-radius: 6px;
+                text-decoration: none
+            }
+
+        footer {
+            background: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BioSaludableWeb</h1>
+        <p>Salud, bienestar y tecnología en un solo lugar</p>
+    </header><nav>
+        <a href="#historia">Historia</a>
+        <a href="#reglas">Reglas</a>
+        <a href="#productos">Productos</a>
+    </nav><section class="hero">
+        <h2>Bienvenido a BioSaludableWeb</h2>
+        <p>Explora nuestra historia, conoce nuestras reglas y descubre productos saludables.</p>
+    </section><section class="grid">
+        <div class="card" id="historia">
+            <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" alt="Historia saludable">
+            <h3>Nuestra Historia</h3>
+            <p>Conoce cómo nació BioSaludableWeb y nuestra misión.</p>
+            <a href="#historia-contenido">Ver más</a>
+        </div>  <div class="card" id="reglas">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f" alt="Reglas">
+            <h3>Reglas</h3>
+            <p>Principios y normas para una vida saludable.</p>
+            <a href="#reglas-contenido">Ver más</a>
+        </div>  <div class="card" id="productos">
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352" alt="Productos">
+            <h3>Productos</h3>
+            <p>Descubre nuestros productos recomendados.</p>
+            <a href="#productos-contenido">Ver más</a>
+        </div>
+    </section><section id="historia-contenido" style="padding:20px">
+        <h2>Historia</h2>
+        <p>BioSaludableWeb nace con el propósito de ayudar a las personas a mejorar su calidad de vida mediante hábitos saludables, alimentación consciente y el uso de tecnología.</p>
+    </section><section id="reglas-contenido" style="padding:20px">
+        <h2>Reglas</h2>
+        <ul>
+            <li>Mantener una alimentación balanceada</li>
+            <li>Realizar actividad física regularmente</li>
+            <li>Cuidar la salud mental</li>
+            <li>Evitar excesos y hábitos dañinos</li>
+        </ul>
+    </section><section id="productos-contenido" style="padding:20px">
+        <h2>Productos</h2>
+        <ul>
+            <li>Jugos naturales</li>
+            <li>Suplementos naturales</li>
+            <li>Alimentos orgánicos</li>
+            <li>Planes de alimentación</li>
+        </ul>
+    </section><footer>
+        <p>&copy; 2026 BioSaludableWeb</p>
+    </footer>
+</body>
+</html>
